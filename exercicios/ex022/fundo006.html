@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
             color: white;
+
+           /* background-color: black;
             background-image: url('imagens/img.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: 100%;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*shorthand-backgound
+            color > image > position > repeat > size > attachment*/
+
+            background: black url('imagens/img.jpg') center center no-repeat  fixed;
+            background-size: cover;
+
 
         }
         main{
             color: black;
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 10px;
+            border: 3px  solid rgba(0, 255, 128, 0.397);
 
         }
     </style>
@@ -31,6 +41,12 @@
     <main>
         <h1>Teste de Imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatibus ex! Ea eligendi commodi in libero, tempora illo explicabo tempore ullam! Alias cum impedit error quos voluptas reiciendis esse voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error cum ad quasi est, eveniet expedita ab iure dicta necessitatibus asperiores consequuntur harum voluptatem! Ab, ipsam! Veniam provident iste quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatibus ex! Ea eligendi commodi in libero, tempora illo explicabo tempore ullam! Alias cum impedit error quos voluptas reiciendis esse voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error cum ad quasi est, eveniet expedita ab iure dicta necessitatibus asperiores consequuntur harum voluptatem! Ab, ipsam! Veniam provident iste quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatibus ex! Ea eligendi commodi in libero, tempora illo explicabo tempore ullam! Alias cum impedit error quos voluptas reiciendis esse voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error cum ad quasi est, eveniet expedita ab iure dicta necessitatibus asperiores consequuntur harum voluptatem! Ab, ipsam! Veniam provident iste quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatibus ex! Ea eligendi commodi in libero, tempora illo explicabo tempore ullam! Alias cum impedit error quos voluptas reiciendis esse voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error cum ad quasi est, eveniet expedita ab iure dicta necessitatibus asperiores consequuntur harum voluptatem! Ab, ipsam! Veniam provident iste quam!</p>
     </main>
+    <aside>
+        
+    </aside>
 </body>
 </html>
