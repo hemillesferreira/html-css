@@ -1,0 +1,9 @@
+@charset "UTF_8";
+
+/*Aparelho em pe(modo retrato)*/
+
+body{
+    background: url('../imagens/Untitled\ Project\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

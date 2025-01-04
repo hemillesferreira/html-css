@@ -1,0 +1,9 @@
+@charset "UTF_8";
+
+/*Aparelho em deitado(modo paisagem)*/
+
+body{
+    background: url(../imagens/d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
