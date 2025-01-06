@@ -12,7 +12,7 @@ Grandes telas: acima de 1200px
 @media print {
     
 }
-@media screen and (min-width:481px) and (max-width:768px){ /*TABLET*/
+@media screen and (min-width:768px) and (max-width:992px){ /*TABLET*/
     body{
         background: url(../imagens/tab.jpg);
         background-position: center center;
@@ -48,4 +48,3 @@ Grandes telas: acima de 1200px
         img#tv{display: block;}
     }
     }
-}
