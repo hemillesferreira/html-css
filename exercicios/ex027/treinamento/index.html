@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        .pai{
+            margin: auto;
+            height: 80vh;
+            width: 70vw;
+            background-color: rgb(201, 172, 228);
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .filho{
+            justify-content: end;
+            background-color: cadetblue;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho"> Box A</div>
+        <div class="filho"> Box B</div>
+        <div class="filho"> Box C</div>
+        <div class="filho"> Box D</div>
+        <div class="filho"> Box E</div>
+        <div class="filho"> Box F</div>
+        <div class="filho"> Box G</div>
+        <div class="filho"> Box H</div>
+    </div>
+</body>
+</html>
